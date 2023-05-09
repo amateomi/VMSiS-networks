@@ -69,7 +69,7 @@
 - Virtual
 - Small business
 
-В сегментах small-to-medium businesses (SMB) и small office/small home (SOHO),
+В сегментах small-to-medium businesses (SMB) и small office/home office (SOHO),
 преобладают маршрутизаторы серий Integrated Services Routers (ISR). В
 частности, их же принято использовать при обучении, на них ориентируется
 программа CCNA.
