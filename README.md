@@ -82,7 +82,7 @@
 различные модули на специальное шасси.
 
 Выделяют 5 групп модулей:
-- Интерфейсные карты (WIC - WAN Interface Network, HWIC - High-speed WIC, EHWIC - Enhanced HWIC)
+- Интерфейсные карты (WIC - WAN Interface Card, HWIC - High-speed WIC, EHWIC - Enhanced HWIC)
 - Интерфейсные модули (NIM - Network Interface Module, NM - Network Module, NMD - NM Double-wide, NME - NM Enhanced)
 - Внутренние модули (AIM - Advanced Integration Module, ISM - Internal Services Module)
 - DSP-сопроцессоры
