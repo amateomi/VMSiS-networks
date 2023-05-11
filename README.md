@@ -694,3 +694,19 @@ irtt - устаревшие параметры TCP.
 - Виртуальный диск в оперативной памяти
 - Сетевой виртуальный диск
 
+## 40. Технологии удаленной загрузки
+
+Удаленная загрузка - загрузка ядра ОС на станции не с локального накопителя
+(например, HHD), а с накопителя на некоторой удаленной станции.
+
+Для различных протоколов сетевого уровня имеется свой набор технологий для
+удаленной загрузки:
+- IPX: Remote Program Load (RPL) с ПО от Microsoft
+- IPv4: стек протоколов BOOTstrap Protocol (BOOTP) -> Dynamic Host Configuration Protocol (DHCP) -> Preboot eXecution Environment (PXE) с соответствующим ПО
+- IPv6: стек протоколов DHCPv6 -> Netboot6 (PXE на базе IPv6) с ПО от Microsoft
+- IPv4/IPv6: технологии сетевого хранилища Internet Small Computer Systems Interface (iSCSI) и (Fibre Channel over Ethernet) FCoE вместе со специальным ПО
+- IPv4/IPv6: HTTP Boot и ПО от HP и IBM
+
+Для IPv4 и IPv6 также есть множество других протоколов и необходимого
+свободного ПО.
+
