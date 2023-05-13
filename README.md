@@ -1349,3 +1349,14 @@ ISATAP (Intra-Site Automatic Tunnel Addressing Protocol) и Teredo.
 Чтобы посмотреть таблицу маршрутизации в Windows используют команду `route
 print -6`, в Linux - `netstat -r -A inet6`, а в IOS - `show ipv6 route`.
 
+## 72. Статическая IPv6-маршрутизация в Windows, Linux и IOS
+
+Алгоритм выбора маршрута аналогичен оному в IPv4.
+
+По умолчанию в системах IPv6 forwarding выключен. Чтобы его включить в
+Windows можно использовать сервис `Routing and Remote Access` или утилиту
+netsh, в Linux - конфигурационный файл `/etc/sysconfig/network`, а в IOS -
+`ipv6 unicast-routing`.
+
+Добавить статический маршрут в Windows можно командой `netsh interface
+ipv6 add route`, в Linux - `route -A inet6 add`, а в IOS - `ipv6 route`.
