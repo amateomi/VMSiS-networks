@@ -1227,6 +1227,8 @@ foreign link, care-of (дорожный) address  и foreign subnet prefix.
 обход домашнему агенту, после пересылки пары сообщений по старой
 схеме.
 
+![image](https://github.com/amateomi/aksis/assets/74430714/25783b1a-6652-43b9-8f21-dc5d07fa701f)
+
 В IPv6 есть несколько составляющих реализующих поддержку мобильности:
 - Mobility header
 - Несколько видов ICMPv6-сообщений
